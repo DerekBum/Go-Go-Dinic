@@ -6,7 +6,7 @@ type edge struct {
 	a, b, flow, cap int
 }
 
-const N = 1e6
+const N = 1e4 + 2
 const INF = 1e9
 
 var graph [N][]int
